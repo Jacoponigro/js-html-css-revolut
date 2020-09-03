@@ -14,16 +14,17 @@ nav{
 }
 .nav-left{
   height: 100px;
-  width: 50%;
+  width: 35%;
 }
 .nav-right{
   line-height: 100px;
   height: 100px;
-  width: 50%;
+  width: 65%;
 }
 .list li{
   list-style: none;
   display: inline-block;
+  vertical-align: middle;
 }
 li a{
   text-decoration: none;
@@ -31,9 +32,24 @@ li a{
 }
 /* navigazione di sinistra */
 .logo{
-  height: 80px;
+  height: 100px;
 }
-.allineamento{
- height: 100px;
+.left-list li{
+  margin: 5px;
 }
 /* navigazione di destra */
+.right-list li{
+ margin-top: 7px;
+ margin-left: 20px;
+}
+.button{
+  background-color: violet;
+  border-radius: 5px;
+  padding: 7px;
+}
+/* container tendina */
+.container-tendina{
+  display: flex;
+  justify-content: flex-end;
+  height:300px;
+}
